@@ -1,0 +1,15 @@
+groups:
+  - name: kubernetes
+
+    rules:
+      - alert: HighCPUUsage
+
+        expr: cpu_usage > 80
+
+        for: 5m
+
+        labels:
+          severity: warning
+
+        annotations:
+          summary: High CPU Usage

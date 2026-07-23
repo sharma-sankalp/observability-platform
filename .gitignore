@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Build / cache
+__pycache__/
+node_modules/
+coverage/
+*.log
+
+# Local artifacts
+*.tmp
+*.swp
